@@ -25,6 +25,9 @@
     <input type="text" placeholder="Enter father Name" name="father name" id="father name" required>
     <br>
 
+    <label for="mobile number"><b>father Name</b></label>
+    <input type="text" placeholder="Enter mobile number" name="mobile number" id="mobile number" required>
+    <br>
 
     <label for="aadhar"><b>Aadhar Number</b></label>
     <input type="text" placeholder="Enter Aadhar Number" name="aadhar" id="aadhar" required>
