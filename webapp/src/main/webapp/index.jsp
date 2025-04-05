@@ -1,6 +1,6 @@
 <form action="action_page.php">
   <div class="container">
-    <h1>Jab jago tab sabera</h1>
+    <h1>Jai ho sarade</h1>
     <p>Please fill in this form!</p>
     <hr>
     <br>
