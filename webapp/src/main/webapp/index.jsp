@@ -29,6 +29,10 @@
     <label for="father name"><b>father Name</b></label>
     <input type="text" placeholder="Enter father Name" name="father name" id="father name" required>
     <br>
+      
+     <label for="Mother name"><b>Mother Name</b></label>
+    <input type="text" placeholder="Enter Mother Name" name="Mother name" id="Mother name" required>
+    <br>
 
     <label for="mobile number"><b>mobile number</b></label>
     <input type="text" placeholder="Enter mobile number" name="mobile number" id="mobile number" required>
