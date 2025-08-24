@@ -1,52 +1,33 @@
-<form action="action_page.php">
-  <div class="container">
-    <h1>CI-CD Pipelinek</h1>
-    <p>Please fill in this form!</p>
-    <hr>
-    <br>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration with at zero420.com</title>
+</head>
+<body>
+  <div class="card">
+    <h2>Registration</h2>
+    <form action="#" method="post">
+      <label for="name">Full Name</label>
+      <input type="text" id="name" name="name" required>
 
-    <label for="name"><b>Name</b></label>
-    <input type="text" placeholder="Enter Name" name="name" id="name" required>
-    <br> 
+      <label for="father">Father's Name</label>
+      <input type="text" id="father" name="father" required>
 
-    <label for="ser name"><b>ser Name</b></label>
-    <input type="text" placeholder="Enter ser Name" name="ser name" id="ser name" required>
-    <br>
+      <label for="mother">Mother's Name</label>
+      <input type="text" id="mother" name="mother" required>
 
+      <label for="login">Login ID</label>
+      <input type="text" id="login" name="login" required>
 
-    <label for="email"><b>Email</b></label>
-    <input type="text" placeholder="Enter Email" name="email" id="email" required>
-    <br>
+      <label for="password">Password</label>
+      <input type="password" id="password" name="password" required>
 
-    <label for="psw"><b>Password</b></label>
-    <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
-    <br>
-
-    <label for="psw-repeat"><b>Repeat Password</b></label>
-    <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
-    <br> 
-
-    <label for="father name"><b>father Name</b></label>
-    <input type="text" placeholder="Enter father Name" name="father name" id="father name" required>
-    <br>
-      
-     <label for="Mother name"><b>Mother Name</b></label>
-    <input type="text" placeholder="Enter Mother Name" name="Mother name" id="Mother name" required>
-    <br>
-
-    <label for="mobile number"><b>mobile number</b></label>
-    <input type="text" placeholder="Enter mobile number" name="mobile number" id="mobile number" required>
-    <br>
-
-    <label for="aadhar"><b>Aadhar Number</b></label>
-    <input type="text" placeholder="Enter Aadhar Number" name="aadhar" id="aadhar" required>
-    <br>
-
-    <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
-    <button type="submit" class="registerbtn">Register</button>
+      <button type="submit">Register</button>
+    </form>
   </div>
+</body>
+</html>
 
-  <div class="container signin">
-    <p>Already have an account? <a href="#">Sign in</a>.</p>
-  </div>
-</form>
+ 
